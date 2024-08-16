@@ -1,0 +1,159 @@
+:root{
+    --darkblue : #12376B;
+    --darkorange : #F04B25;
+    --BGLightOrange: #F04B2540;
+    --yellow :#F4A905;
+    --lightYellow:#F4A90540;
+    --red : #F04B25;
+    --blue: #286CD5;
+    --BGlightBlue:#286CD540;
+    --BGLightDarkBlue: #12376B40;
+    --white : #fff;
+    --textgray: #616161;
+    --lightGrayBackground: #F5F5F5;
+    --colorForMask: #F4A90526;
+    --BGForCards: #F5F5F5;
+    --BGpPictureLightYello: #F4A90540;
+    --BGpPictureLightBlue: #286CD540;
+    --BGpPictureLightOrange: #F04B2540;
+    --BGpPictureLightDarkBlue: #12376B40;
+    --zety: #9B6900;
+    --BGgray: #EAEAEA;
+
+
+
+}
+.nokhba{
+    position: relative;
+}
+.threePicture{
+    position: absolute;
+    left: -30%;
+    right: 0;
+}
+.threePicture .pic1 img ,.threePicture .pic2 img,.threePicture .pic3 img{
+    max-width: 90%;
+    bottom: 0;
+}
+.threePicture .pic1  ,.threePicture .pic2 ,.threePicture .pic3 {
+    width: 200px;
+    height: 200px; 
+}
+.threePicture .pic1{
+    background-color: var(--BGpPictureLightDarkBlue);
+}
+.threePicture .pic2{
+    background-color: var(--BGpPictureLightOrange);
+
+}
+.threePicture .pic3{
+    background-color: var(--BGpPictureLightBlue);
+}
+
+
+.OurDistinguishedTeacherRightSide .finaltwoimg >div {
+    background-color: var(--lightGrayBackground);
+    max-width: 250px;
+    direction: rtl;
+    height: 340px;
+    padding: 0px;
+}
+.OurDistinguishedTeacherRightSide .finaltwoimg >div div{
+    height: 200px;
+}
+
+.OurDistinguishedTeacherRightSide .finaltwoimg > div  img {
+    max-height: 220px;
+    display: block;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    top: -20px;
+}
+
+.OurDistinguishedTeacherLeftDetailsSideImage{
+    background-color: var(--lightGrayBackground);
+    background-image: url("../Images/ourTeacher/Mohammed\ Abd\ El\ Hameed.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: inherit;
+}
+.OurDistinguishedTeacherLeftDetailsSideInfo{
+    padding: 10%;
+}
+.OurDistinguishedTeacherLeftDetailsSideInfo div:first-child{
+    direction: rtl;
+    color: var(--textgray);
+    background-color: var(--BGgray);
+    padding: 40px 20px;
+}
+.OurDistinguishedTeacherLeftDetailsSideInfo div:first-child h4{
+color: var(--darkblue);
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .nokhba{
+        position: initial;
+        margin-top: 20px !important;
+    }
+    .threePicture{
+        position: initial;
+        left: initial;
+        right: initial;
+    }
+    .nokhbaAndInfo{
+        flex-direction: column-reverse;
+    }
+.OurDistinguishedTeacherLeftDetailsSideInfo{
+    flex-direction: column-reverse;
+}
+.OurDistinguishedTeacherLeftDetailsSideImage{
+    background-size: contain;
+}
+.OurDistinguishedTeacherLeftDetailsSideImage{
+    height: 350px;
+}  
+
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+ .threePicture .pic1  ,.threePicture .pic2 ,.threePicture .pic3{
+    margin:15px auto;
+    }
+    .threePicture{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nokhba{
+      
+        margin-top: 40px !important;
+    }
+.OurDistinguishedTeacherRightSide .finaltwoimg {
+justify-content: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

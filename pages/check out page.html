@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../css/checkOutPage.css">
+    <link rel="stylesheet" href="../css/content us.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../Bootstrap/bootstrapmin.css">
+    <link rel="stylesheet" href="../css/homeCss.css">
+</head>
+<body>
+<header>
+    <!--start adds in Header-->
+<div class="ads col-12">
+    <div class="contentadds container">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <p>استخدم كود <span>كله بالحب</span> للحصول على خصم 20% علي منتجاتنا</p>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    </div>
+</div>
+    <!--End adds in Header-->
+
+    <!--start nav in Header-->
+<nav>
+<div class="container navContent">
+<div class="logo"><img src="../Images/logo.png"/></div>
+<ul id="menuList">
+    <li><a href="../home.html">الرئيسية</a></li>
+    <li><a href="courses.html">الكورسات</a></li>
+    <li><a href="teachers.html">المعلمون</a></li>
+    <li><a href="about us.html">من نحن!</a></li>
+    <li><a href="content us.html">تسجيل دخول </a></li>
+    <li><button><a href="check out page.html">إكتشف الآن</a></button></li>
+</ul>
+<i class="fa-solid fa-list 4" onclick="toggleMenu()"></i>
+</div>
+</nav>
+    <!--End nav in Header-->
+</header>
+<section>
+    <div class="container">
+        <h3 class="mt-5 mb-5" style="color: var(--darkblue); direction: rtl;">معلومـــــــــات  <span style="color: var(--red);">الشـــــــــراء</span></h3>
+    </div>
+
+    <div class="container mb-4">
+        <div class="userInfoToContact row justify-content-between">
+            <div class="inputsField mb-4 col-md-8">
+                <input style="width:49%;" type="text" id="fname" name="fname" placeholder="الإسم الأول">
+                <input style="width: 49%;" type="text" id="lname" name="lname" placeholder="الإسم الثانى">
+                <br>
+                <div class="countryTelephoneCode position-relative">
+                    <input type="tel" id="phoneNumber" name="phoneNumber"  placeholder="رقم المحمول" style="text-align: end; padding-right: 60px;">
+                    <p class="position-absolute">+20</p>
+                </div>
+                <br>
+                <input type="email" id="mail" name="mail"  placeholder="الإيميل">
+                <h4 class="mb-2" style="color: var(--darkblue); direction: rtl;">معلومـــــــــات  <span style="color: var(--red);">الدفع</span></h4>
+              <form class="mb-3">
+                <input style="width: auto;" class="mb-0" type="radio" name="payWithCard" id="payWithCard" value="payWithCard"/>
+               <label for="payWithCard">دفع عبر الكارت / الكروت الاونلاين ...</label>
+            </form>
+            <div class="activeWhenPay rounded-2"></div>
+            </div>
+    
+            <div class="col-md-4 p-3 border rounded-2">
+                    <h5 class="mb-2" style="color: var(--darkblue); direction: rtl;">انت علي وشك   <span style="color: var(--red);">شراء</span></h5>
+                
+                    <div class="rounded-2 bg-light">
+                        <div class="carryImage rounded-2"> </div>
+                        <div class="undercarryImage p-3">
+                            <h4 style="color: var(--darkblue); direction: rtl;">دبلومة الجرافيك</h4>
+                            <p>الدفع لسنة كاملة ( ثلاث ترمات متتالية )</p>
+                            <span class="fw-bolder">2000 جنية مصري</span>
+                        </div>
+                    </div>
+                    <div class="applyCodeInput mt-3 mb-3 position-relative">
+                        <input type="text" id="code" name="code" placeholder="أدخل كود الخصم"/>
+                        <input class="position-absolute" type="submit" id="submit" name="submit" value="طبق"/>
+                    </div>
+                    <hr class="mt-4 mb-4"/>
+                    <p>المبلغ المطلوب دفعه :</p>
+                    <div class="d-flex justify-content-between" style="color: var(--darkblue);">
+                        <span>دبلومة الجرافيك</span><span>2000 جنية مصري</span>
+                    </div>
+                    <button class="JoinUsNow"><a href="cart page.html">أنضم ألينا الآن</a></button>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+</section>
+
+<!--start footer-->
+<footer>
+    <div class="recapAndContact container">
+        <div class="footerLinks">
+            <a href="#">القائمة الرئيسية</a>
+            <a href="#">الرئيسية</a>
+            <a href="#">الكورسات</a>
+            <a href="#">من نحن</a>
+            <a href="#">تواصل معنا</a>
+        </div>
+        <div class="footerLinks">
+            <a href="#">أريد الذهاب إلى</a>
+            <a href="#">الخصومات</a>
+            <a href="#">التقديم</a>
+            <a href="#">التواصل السريع</a>
+            <a href="#">الوظائف</a>
+        </div>
+
+        <div class="socialMediaInfo">
+            <div><img src="../Images/Logo PNG for footer.png"/></div>
+            <div><span>العنوان</span><i class="fa fa-map-marker" aria-hidden="true"></i> </div>
+            <div><span>01000000043</span><i class="fa fa-phone" aria-hidden="true"></i>   </div>
+            <div><span>info@websites.com</span><i class="fa fa-envelope" aria-hidden="true"></i>  </div>
+          
+            <div class="socialMediaIcon">
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+    </div>
+    <hr class="container" style="color: white;"/>
+    <div class="container endOfFooter">
+        <div>Copyright © 2023. All Rights Reserved.</div>
+        <div><span>Terms of use</span><span> Privacy Environmental Policy</span></div>
+    </div>
+</footer>
+<!--End footer-->
+
+
+ <script src="Bootstrap/bootstrap.bundlemin.js"></script> 
+ <script src="../js/homeJs.js"></script>  
+</body>
+</html>

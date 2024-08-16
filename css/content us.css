@@ -1,0 +1,67 @@
+:root{
+    --darkblue : #12376B;
+    --darkorange : #F04B25;
+    --BGLightOrange: #F04B2540;
+    --yellow :#F4A905;
+    --lightYellow:#F4A90540;
+    --red : #F04B25;
+    --blue: #286CD5;
+    --BGlightBlue:#286CD540;
+    --BGLightDarkBlue: #12376B40;
+    --white : #fff;
+    --textgray: #616161;
+    --lightGrayBackground: #F5F5F5;
+    --colorForMask: #F4A90526;
+    --BGForCards: #F5F5F5;
+    --BGpPictureLightYello: #F4A90540;
+    --BGpPictureLightBlue: #286CD540;
+    --BGpPictureLightOrange: #F04B2540;
+    --BGpPictureLightDarkBlue: #12376B40;
+    --zety: #9B6900;
+    --BGgray: #EAEAEA;
+}
+
+
+.userInfoToContact{
+    direction: rtl;
+    color: var(--textgray);
+}
+.inputsField input{
+   margin:0px 0px 40px 0px;
+   width: 100%;
+   padding: 5px 10px;
+   border: 1px solid var(--textgray);
+   border-radius: 5px;
+}
+.inputsField input[type="submit"]{
+    color: var(--white);
+    background-color: var(--darkorange);
+    border: none;
+}
+.inputsField input[type="submit"]:hover{
+    background-color: var(--darkblue);
+}
+.location{
+    max-width: 100%;
+    height: 300px;
+    background-color: var(--BGgray);
+    line-height: 300px;
+}
+
+
+
+
+
+
+@media screen and (max-width:767px){
+  
+  
+
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+}

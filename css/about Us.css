@@ -1,0 +1,120 @@
+:root{
+    --darkblue : #12376B;
+    --darkorange : #F04B25;
+    --BGLightOrange: #F04B2540;
+    --yellow :#F4A905;
+    --lightYellow:#F4A90540;
+    --red : #F04B25;
+    --blue: #286CD5;
+    --BGlightBlue:#286CD540;
+    --BGLightDarkBlue: #12376B40;
+    --white : #fff;
+    --textgray: #616161;
+    --lightGrayBackground: #F5F5F5;
+    --colorForMask: #F4A90526;
+    --BGForCards: #F5F5F5;
+    --BGpPictureLightYello: #F4A90540;
+    --BGpPictureLightBlue: #286CD540;
+    --BGpPictureLightOrange: #F04B2540;
+    --BGpPictureLightDarkBlue: #12376B40;
+    --zety: #9B6900;
+    --BGgray: #EAEAEA;
+}
+
+.aboutUsSmallDefinition div img {
+    max-width: 75%;
+    margin: auto;
+    display: block;
+}
+
+
+.aboutUsSmallDefinitionText{
+    direction: rtl;
+    color: var(--textgray);
+}
+.aboutUsSmallDefinitionText h1{
+    color: var(--darkblue);
+}
+.aboutUsSmallDefinitionText h1 span{
+    color: var(--red);
+}
+.aboutUsSmallDefinitionText button{
+    background-color: var(--darkorange);
+    border: none;
+    color: var(--white);
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.ourAimOurVision{
+    direction: rtl;
+    color: var(--white);
+}
+
+.ourAimOurVision div:first-of-type {
+background-color: var(--yellow);
+}
+.ourAimOurVision div:last-of-type {
+    background-color: var(--blue);
+    }
+ .ourAimOurVision i{
+font-size: 40px;
+    }
+.ourAimOurVision p{
+        font-size: 14px;
+    }
+
+.childrenInClass{
+    background-image: url(../Images/for\ About\ Us/1.jpeg);
+    background-position: center;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.childrenInClass img{
+    top: 40%;
+    left: 42%;
+}
+.theLastForAboutUs{
+    direction: rtl;
+}
+.theLastForAboutUs h1{
+line-height: 250%;
+}
+.theLastForAboutUs p{
+font-size: 14px;
+}
+.theLastForAboutUs h1 span:first-of-type{
+color: var(--darkblue);
+}
+.theLastForAboutUs h1 span:nth-of-type(2){
+    color: var(--yellow);
+    }
+.theLastForAboutUs h1 span:last-of-type{
+    color: var(--red);
+    }
+
+
+@media screen and (max-width:767px){
+  
+    .aboutUsSmallDefinition div img {
+        max-width: 50%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+}
+
+
+
+
+
+
+
+
+

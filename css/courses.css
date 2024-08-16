@@ -1,0 +1,215 @@
+:root{
+    --darkblue : #12376B;
+    --darkorange : #F04B25;
+    --BGLightOrange: #F04B2540;
+    --yellow :#F4A905;
+    --lightYellow:#F4A90540;
+    --red : #F04B25;
+    --blue: #286CD5;
+    --BGlightBlue:#286CD540;
+    --BGLightDarkBlue: #12376B40;
+    --white : #fff;
+    --textgray: #616161;
+    --lightGrayBackground: #F5F5F5;
+    --colorForMask: #F4A90526;
+    --BGForCards: #F5F5F5;
+    --BGpPictureLightYello: #F4A90540;
+    --BGpPictureLightBlue: #286CD540;
+    --BGpPictureLightOrange: #F04B2540;
+    --BGpPictureLightDarkBlue: #12376B40;
+    --zety: #9B6900;
+    --BGgray: #EAEAEA;
+
+
+
+}
+
+
+/*start courses details right side*/
+.coursesDetailsInCoursesHome{
+    direction: rtl;
+}
+
+.coursesDetailsInCoursesHomeRight{
+    height: 1000px;
+}
+.coursesDetailsInCoursesHomeRight .coursesDetailsInCoursesHomeRightReserve{
+    background-color: var(--yellow);
+    color: var(--white);
+    font-size: 14px;
+}
+.coursesDetailsInCoursesHomeRight h3:first-of-type,.coursesDetailsInCoursesHomeLeft h2:first-of-type{
+color: var(--darkblue);
+}
+.coursesDetailsInCoursesHomeRight h3:first-of-type span ,.coursesDetailsInCoursesHomeLeft h2:first-of-type span{
+    color: var(--yellow);
+ }
+
+    .coursesDetailsInCoursesHomeRight .childProgramingPicture    {
+        width: 90%;
+        height: 277px;
+        background-image: url("../Images/our Courses/programming Course for children.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+ .coursesDetailsInCoursesHomeRight .coursesDetailsInCoursesHomeRightCoust{
+width: 90%;
+background-color: var(--yellow);
+    }
+
+.class90InRightSection{
+    width: 90%;
+    margin: auto;
+}
+.forTextColor{
+    color: var(--textgray);
+    font-size: .8rem;
+    
+}
+.forTextColor .gutterr{
+    border-left: 1px solid var(--textgray);
+}
+.class90InRightSection button:first-of-type{
+    background-color: var(--yellow);
+    padding: 20px 70px;
+    color: var(--darkblue);
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: none;
+}
+.class90InRightSection button:last-of-type{
+   
+    padding: 20px 70px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+/*end courses details right side*/
+
+/*start courses details left side*/
+
+.leftSideImage {
+    height: 320px;
+    background-image: url("../Images/our Courses/programming Course for children.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+.coursesDetailsInCoursesHomeLeft{
+    color: var(--textgray);
+    font-size: .8rem;
+}
+.aroundDiploma div:first-of-type{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+.aroundDiploma ul , .DiplomaContent90width ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 10px 15px;
+    line-height: 2.5;
+}
+.aroundDiploma ul li i , .DiplomaContent90width ul li i {
+    margin-left: 10px;
+}
+.DiplomaContent .DiplomaContent90width{
+width: 90%;
+margin: 10px auto;
+}
+.DiplomaContent div > i{
+    font-size: 20px;
+}
+
+
+.advantage1,.advantage2,.advantage3,.advantage4,.advantage5,.advantage6{
+    color: var(--white);
+}
+.advantage1{
+    background-color: var(--darkblue);
+}
+.advantage1 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/1.jpeg");
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.advantage2{
+    background-color: var(--red);
+}
+.advantage2 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.advantage3{
+    background-color: var(--blue);
+}
+.advantage3 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.advantage4{
+    background-color: var(--yellow);
+}
+.advantage4 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.advantage5{
+    background-color: var(--darkblue);
+}
+.advantage5 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.advantage6{
+    background-color: var(--red);
+}
+.advantage6 .imageDiv{
+    background-image: url("../Images/Diploma Advantages/6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.BenifitsLearner  {
+    width:49%;
+    margin-bottom: 10px;
+}
+
+/*end courses details left side*/
+
+
+/*start media Courses*/
+@media screen and (max-width:767px){
+    .BenifitsLearner  {
+        width:100%;
+    }
+}
+
+
+
+@media screen and (max-width:480px){
+
+}
+/*end media Courses*/
+
+
+
+
+
+
+
